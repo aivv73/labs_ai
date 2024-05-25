@@ -1,0 +1,380 @@
+Prefix(:=<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2/>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+
+
+Ontology(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2>
+
+Declaration(Class(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Блюдо>))
+Declaration(Class(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Блюдо_с_варкой>))
+Declaration(Class(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Варка>))
+Declaration(Class(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Вегетарианское_блюдо>))
+Declaration(Class(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Венчики>))
+Declaration(Class(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Жарка>))
+Declaration(Class(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Заквашевание>))
+Declaration(Class(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Запекание>))
+Declaration(Class(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Измельчение>))
+Declaration(Class(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Ингредиент>))
+Declaration(Class(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Итальянская>))
+Declaration(Class(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Кастрюли>))
+Declaration(Class(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Крупы>))
+Declaration(Class(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Кухонная_утварь>))
+Declaration(Class(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Механическая_обработка>))
+Declaration(Class(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Миксеры>))
+Declaration(Class(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Мясо>))
+Declaration(Class(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Нарезка>))
+Declaration(Class(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Национальная_кухня>))
+Declaration(Class(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Ножи>))
+Declaration(Class(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Овощи>))
+Declaration(Class(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Посуда>))
+Declaration(Class(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Противни>))
+Declaration(Class(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Процесс_приготовления>))
+Declaration(Class(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Русская>))
+Declaration(Class(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#РусскоеБлюдо>))
+Declaration(Class(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Рыба>))
+Declaration(Class(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Сковороды>))
+Declaration(Class(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Сложное_блюдо>))
+Declaration(Class(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Смешивание>))
+Declaration(Class(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Соус>))
+Declaration(Class(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Тепловая_обработка>))
+Declaration(Class(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Терки>))
+Declaration(Class(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Французская>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#готовитсяПроцессом>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#имеетИнгриндиент>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#используетсяВПроцессе>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#используетсяДляПриготовления>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#принадлежитКухне>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#требуетУтварь>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#являетсяВидом>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#являетсяИнгредиентомДля>))
+Declaration(DataProperty(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#вегетарианское>))
+Declaration(DataProperty(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#вес>))
+Declaration(DataProperty(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#время>))
+Declaration(DataProperty(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#время_приготовления>))
+Declaration(DataProperty(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#калории_на_100г>))
+Declaration(DataProperty(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#калорийность>))
+Declaration(DataProperty(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#название>))
+Declaration(DataProperty(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#объём>))
+Declaration(DataProperty(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#порции>))
+Declaration(DataProperty(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#регион>))
+Declaration(DataProperty(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#температура>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Борщ>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Варка>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Капуста>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Картофель>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Кастрюля>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Лук>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Морковь>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#РусскаяКухня>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Свекла>))
+############################
+#   Object Properties
+############################
+
+# Object Property: <http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#готовитсяПроцессом> (<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#готовитсяПроцессом>)
+
+ObjectPropertyDomain(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#готовитсяПроцессом> <http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Блюдо>)
+ObjectPropertyRange(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#готовитсяПроцессом> <http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Процесс_приготовления>)
+
+# Object Property: <http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#имеетИнгриндиент> (<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#имеетИнгриндиент>)
+
+ObjectPropertyDomain(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#имеетИнгриндиент> <http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Блюдо>)
+ObjectPropertyRange(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#имеетИнгриндиент> <http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Ингредиент>)
+
+# Object Property: <http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#используетсяВПроцессе> (<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#используетсяВПроцессе>)
+
+ObjectPropertyDomain(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#используетсяВПроцессе> <http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Кухонная_утварь>)
+ObjectPropertyRange(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#используетсяВПроцессе> <http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Процесс_приготовления>)
+
+# Object Property: <http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#используетсяДляПриготовления> (<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#используетсяДляПриготовления>)
+
+ObjectPropertyDomain(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#используетсяДляПриготовления> <http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Процесс_приготовления>)
+ObjectPropertyRange(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#используетсяДляПриготовления> <http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Блюдо>)
+
+# Object Property: <http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#принадлежитКухне> (<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#принадлежитКухне>)
+
+ObjectPropertyDomain(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#принадлежитКухне> <http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Блюдо>)
+ObjectPropertyRange(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#принадлежитКухне> <http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Национальная_кухня>)
+
+# Object Property: <http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#требуетУтварь> (<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#требуетУтварь>)
+
+ObjectPropertyDomain(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#требуетУтварь> <http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Процесс_приготовления>)
+ObjectPropertyRange(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#требуетУтварь> <http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Кухонная_утварь>)
+
+# Object Property: <http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#являетсяВидом> (<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#являетсяВидом>)
+
+ObjectPropertyDomain(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#являетсяВидом> <http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Ингредиент>)
+ObjectPropertyRange(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#являетсяВидом> <http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Крупы>)
+ObjectPropertyRange(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#являетсяВидом> <http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Мясо>)
+ObjectPropertyRange(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#являетсяВидом> <http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Овощи>)
+ObjectPropertyRange(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#являетсяВидом> <http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Рыба>)
+ObjectPropertyRange(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#являетсяВидом> <http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Соус>)
+
+# Object Property: <http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#являетсяИнгредиентомДля> (<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#являетсяИнгредиентомДля>)
+
+ObjectPropertyDomain(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#являетсяИнгредиентомДля> <http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Ингредиент>)
+ObjectPropertyRange(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#являетсяИнгредиентомДля> <http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Блюдо>)
+
+
+############################
+#   Data Properties
+############################
+
+# Data Property: <http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#вегетарианское> (<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#вегетарианское>)
+
+FunctionalDataProperty(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#вегетарианское>)
+DataPropertyDomain(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#вегетарианское> <http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Блюдо>)
+DataPropertyRange(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#вегетарианское> xsd:boolean)
+
+# Data Property: <http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#вес> (<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#вес>)
+
+FunctionalDataProperty(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#вес>)
+DataPropertyDomain(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#вес> <http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Ингредиент>)
+DataPropertyDomain(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#вес> <http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Кухонная_утварь>)
+DataPropertyRange(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#вес> xsd:int)
+
+# Data Property: <http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#время> (<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#время>)
+
+FunctionalDataProperty(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#время>)
+DataPropertyDomain(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#время> <http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Процесс_приготовления>)
+DataPropertyRange(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#время> xsd:int)
+
+# Data Property: <http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#время_приготовления> (<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#время_приготовления>)
+
+FunctionalDataProperty(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#время_приготовления>)
+DataPropertyDomain(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#время_приготовления> <http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Блюдо>)
+DataPropertyRange(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#время_приготовления> xsd:int)
+
+# Data Property: <http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#калории_на_100г> (<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#калории_на_100г>)
+
+DataPropertyDomain(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#калории_на_100г> <http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Ингредиент>)
+DataPropertyRange(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#калории_на_100г> xsd:int)
+
+# Data Property: <http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#калорийность> (<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#калорийность>)
+
+FunctionalDataProperty(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#калорийность>)
+DataPropertyDomain(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#калорийность> <http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Блюдо>)
+DataPropertyRange(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#калорийность> xsd:int)
+
+# Data Property: <http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#название> (<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#название>)
+
+FunctionalDataProperty(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#название>)
+DataPropertyDomain(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#название> <http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Блюдо>)
+DataPropertyDomain(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#название> <http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Ингредиент>)
+DataPropertyDomain(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#название> <http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Кухонная_утварь>)
+DataPropertyDomain(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#название> <http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Национальная_кухня>)
+DataPropertyDomain(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#название> <http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Процесс_приготовления>)
+DataPropertyRange(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#название> xsd:string)
+
+# Data Property: <http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#объём> (<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#объём>)
+
+DataPropertyDomain(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#объём> <http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Кухонная_утварь>)
+DataPropertyRange(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#объём> xsd:int)
+
+# Data Property: <http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#порции> (<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#порции>)
+
+DataPropertyDomain(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#порции> <http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Блюдо>)
+DataPropertyRange(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#порции> xsd:int)
+
+# Data Property: <http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#регион> (<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#регион>)
+
+DataPropertyDomain(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#регион> <http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Национальная_кухня>)
+DataPropertyRange(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#регион> xsd:string)
+
+# Data Property: <http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#температура> (<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#температура>)
+
+FunctionalDataProperty(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#температура>)
+DataPropertyDomain(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#температура> <http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Процесс_приготовления>)
+DataPropertyRange(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#температура> xsd:int)
+
+
+
+############################
+#   Classes
+############################
+
+# Class: <http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Блюдо_с_варкой> (<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Блюдо_с_варкой>)
+
+EquivalentClasses(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Блюдо_с_варкой> ObjectIntersectionOf(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Блюдо> ObjectHasValue(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#готовитсяПроцессом> <http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Варка>)))
+
+# Class: <http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Варка> (<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Варка>)
+
+SubClassOf(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Варка> <http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Тепловая_обработка>)
+
+# Class: <http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Вегетарианское_блюдо> (<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Вегетарианское_блюдо>)
+
+EquivalentClasses(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Вегетарианское_блюдо> ObjectIntersectionOf(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Блюдо> DataHasValue(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#вегетарианское> "true"^^xsd:boolean)))
+
+# Class: <http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Венчики> (<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Венчики>)
+
+SubClassOf(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Венчики> <http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Кухонная_утварь>)
+
+# Class: <http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Жарка> (<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Жарка>)
+
+SubClassOf(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Жарка> <http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Тепловая_обработка>)
+
+# Class: <http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Заквашевание> (<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Заквашевание>)
+
+SubClassOf(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Заквашевание> <http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Процесс_приготовления>)
+
+# Class: <http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Запекание> (<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Запекание>)
+
+SubClassOf(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Запекание> <http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Тепловая_обработка>)
+
+# Class: <http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Измельчение> (<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Измельчение>)
+
+SubClassOf(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Измельчение> <http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Механическая_обработка>)
+
+# Class: <http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Итальянская> (<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Итальянская>)
+
+SubClassOf(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Итальянская> <http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Национальная_кухня>)
+
+# Class: <http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Кастрюли> (<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Кастрюли>)
+
+SubClassOf(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Кастрюли> <http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Посуда>)
+
+# Class: <http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Крупы> (<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Крупы>)
+
+SubClassOf(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Крупы> <http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Ингредиент>)
+
+# Class: <http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Механическая_обработка> (<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Механическая_обработка>)
+
+SubClassOf(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Механическая_обработка> <http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Процесс_приготовления>)
+
+# Class: <http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Миксеры> (<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Миксеры>)
+
+SubClassOf(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Миксеры> <http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Кухонная_утварь>)
+
+# Class: <http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Мясо> (<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Мясо>)
+
+SubClassOf(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Мясо> <http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Ингредиент>)
+
+# Class: <http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Нарезка> (<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Нарезка>)
+
+SubClassOf(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Нарезка> <http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Механическая_обработка>)
+
+# Class: <http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Ножи> (<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Ножи>)
+
+SubClassOf(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Ножи> <http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Кухонная_утварь>)
+
+# Class: <http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Овощи> (<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Овощи>)
+
+SubClassOf(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Овощи> <http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Ингредиент>)
+
+# Class: <http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Посуда> (<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Посуда>)
+
+SubClassOf(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Посуда> <http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Кухонная_утварь>)
+
+# Class: <http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Противни> (<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Противни>)
+
+SubClassOf(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Противни> <http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Посуда>)
+
+# Class: <http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Русская> (<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Русская>)
+
+SubClassOf(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Русская> <http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Национальная_кухня>)
+
+# Class: <http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#РусскоеБлюдо> (<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#РусскоеБлюдо>)
+
+EquivalentClasses(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#РусскоеБлюдо> ObjectIntersectionOf(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Блюдо> ObjectHasValue(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#принадлежитКухне> <http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#РусскаяКухня>)))
+
+# Class: <http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Рыба> (<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Рыба>)
+
+SubClassOf(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Рыба> <http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Ингредиент>)
+
+# Class: <http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Сковороды> (<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Сковороды>)
+
+SubClassOf(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Сковороды> <http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Посуда>)
+
+# Class: <http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Сложное_блюдо> (<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Сложное_блюдо>)
+
+EquivalentClasses(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Сложное_блюдо> ObjectIntersectionOf(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Блюдо> ObjectMinCardinality(2 <http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#готовитсяПроцессом>)))
+
+# Class: <http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Смешивание> (<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Смешивание>)
+
+SubClassOf(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Смешивание> <http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Механическая_обработка>)
+
+# Class: <http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Соус> (<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Соус>)
+
+SubClassOf(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Соус> <http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Блюдо>)
+SubClassOf(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Соус> <http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Ингредиент>)
+
+# Class: <http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Тепловая_обработка> (<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Тепловая_обработка>)
+
+SubClassOf(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Тепловая_обработка> <http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Процесс_приготовления>)
+
+# Class: <http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Терки> (<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Терки>)
+
+SubClassOf(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Терки> <http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Кухонная_утварь>)
+
+# Class: <http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Французская> (<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Французская>)
+
+SubClassOf(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Французская> <http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Национальная_кухня>)
+
+
+############################
+#   Named Individuals
+############################
+
+# Individual: <http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Борщ> (<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Борщ>)
+
+ClassAssertion(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Блюдо> <http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Борщ>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#готовитсяПроцессом> <http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Борщ> <http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Варка>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#имеетИнгриндиент> <http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Борщ> <http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Капуста>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#имеетИнгриндиент> <http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Борщ> <http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Картофель>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#имеетИнгриндиент> <http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Борщ> <http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Лук>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#имеетИнгриндиент> <http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Борщ> <http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Свекла>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#принадлежитКухне> <http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Борщ> <http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#РусскаяКухня>)
+DataPropertyAssertion(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#вегетарианское> <http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Борщ> "false"^^xsd:boolean)
+DataPropertyAssertion(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#время_приготовления> <http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Борщ> "120"^^xsd:decimal)
+DataPropertyAssertion(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#калорийность> <http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Борщ> "280"^^xsd:decimal)
+DataPropertyAssertion(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#порции> <http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Борщ> "4"^^xsd:decimal)
+
+# Individual: <http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Варка> (<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Варка>)
+
+ClassAssertion(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Варка> <http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Варка>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#используетсяДляПриготовления> <http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Варка> <http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Борщ>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#требуетУтварь> <http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Варка> <http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Кастрюля>)
+DataPropertyAssertion(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#время_приготовления> <http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Варка> "60"^^xsd:decimal)
+DataPropertyAssertion(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#название> <http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Варка> "Варка")
+DataPropertyAssertion(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#температура> <http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Варка> "100"^^xsd:decimal)
+
+# Individual: <http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Капуста> (<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Капуста>)
+
+ClassAssertion(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Овощи> <http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Капуста>)
+
+# Individual: <http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Картофель> (<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Картофель>)
+
+ClassAssertion(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Овощи> <http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Картофель>)
+
+# Individual: <http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Кастрюля> (<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Кастрюля>)
+
+ClassAssertion(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Кастрюли> <http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Кастрюля>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#используетсяДляПриготовления> <http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Кастрюля> <http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Борщ>)
+DataPropertyAssertion(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#вес> <http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Кастрюля> "1200"^^xsd:decimal)
+DataPropertyAssertion(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#объём> <http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Кастрюля> "3000"^^xsd:decimal)
+
+# Individual: <http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Лук> (<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Лук>)
+
+ClassAssertion(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Овощи> <http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Лук>)
+
+# Individual: <http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Морковь> (<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Морковь>)
+
+ClassAssertion(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Овощи> <http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Морковь>)
+
+# Individual: <http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#РусскаяКухня> (<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#РусскаяКухня>)
+
+DataPropertyAssertion(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#название> <http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#РусскаяКухня> "Русская Кухня")
+DataPropertyAssertion(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#регион> <http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#РусскаяКухня> "Россия")
+
+# Individual: <http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Свекла> (<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Свекла>)
+
+ClassAssertion(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Овощи> <http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Свекла>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#являетсяИнгредиентомДля> <http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Свекла> <http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Борщ>)
+DataPropertyAssertion(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#вес> <http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Свекла> "300"^^xsd:decimal)
+DataPropertyAssertion(<http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#калории_на_100г> <http://www.semanticweb.org/aivv7/ontologies/2024/4/untitled-ontology-2#Свекла> "43"^^xsd:decimal)
+
+
+)
