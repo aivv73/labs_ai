@@ -35,8 +35,8 @@
   * `numpy`, `pandas`, `matplotlib`, `seaborn`
   * `scikit-learn`
   * `tensorflow` 
-* **Prolog** (SWI-Prolog или аналог)
-* **OWL / ONT** (для работы с онтологиями, напр. Protégé)
+* **Prolog** (SWI-Prolog)
+* **OWL / ONT** (Protégé)
 
 ---
 
